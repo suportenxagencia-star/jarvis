@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100" role="img" aria-label="Jarvis">
+  <defs>
+   <radialGradient id="jv1005b" cx="36%" cy="28%" r="78%"><stop offset="0" stop-color="#3E5874"/><stop offset=".4" stop-color="#14243A"/><stop offset=".82" stop-color="#0B1424"/><stop offset="1" stop-color="#050A14"/></radialGradient>
+   <radialGradient id="jv1005u" cx="50%" cy="100%" r="60%"><stop offset="0" stop-color="#8FAEC6" stop-opacity=".35"/><stop offset="1" stop-color="#3B7BFF" stop-opacity="0"/></radialGradient>
+   <radialGradient id="jv1005h" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+   <linearGradient id="jv1005r" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8FAEC6"/><stop offset="1" stop-color="#C9DBE8"/></linearGradient>
+   <filter id="jv1005g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4"/></filter>
+   <filter id="jv1005e" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <circle cx="50" cy="50" r="46" fill="url(#jv1005b)"/>
+  <circle cx="50" cy="50" r="46" fill="url(#jv1005u)"/>
+  <circle cx="50" cy="50" r="45.4" fill="none" stroke="#fff" stroke-opacity=".07"/>
+  <rect class="jv-ring" x="17" y="33" width="66" height="40" rx="20" fill="none" stroke="url(#jv1005r)" stroke-width="4.5" filter="url(#jv1005g)"/>
+  <rect x="17" y="33" width="66" height="40" rx="20" fill="#03050B" stroke="url(#jv1005r)" stroke-width="3"/>
+  <path d="M27 39 Q50 33.5 73 39" stroke="#fff" stroke-opacity=".1" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <g class="jv-eyes"><g class="jv-blink" filter="url(#jv1005e)" stroke="#C9DBE8" stroke-width="4.4" stroke-linecap="round" fill="none"><path d="M33 57 Q40 46.5 47 57"/><path d="M53 57 Q60 46.5 67 57"/></g></g>
+  <ellipse cx="38" cy="20" rx="20" ry="8" fill="url(#jv1005h)" opacity=".75" transform="rotate(-18 38 20)"/>
+ </svg>
